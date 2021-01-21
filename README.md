@@ -32,8 +32,8 @@ source poky/oe-init-build-env up-board
 Before `bitbake` the image, we need to use the sample config fies from `meta-zhou`:
 
 ```bash
-cp ../meta-up-board/conf/local.conf.sample conf/
-cp ../meta-up-board/conf/bblayers.conf.sample conf/
+cp ../meta-up-board/conf/local.conf.sample conf/local.conf
+cp ../meta-up-board/conf/bblayers.conf.sample conf/bblayers.conf
 ```
 
 In `conf/local.conf` file, make sure the paths for `DL_DIR` and `SSTATE_DIR`  are available.
