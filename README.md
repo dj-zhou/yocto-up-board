@@ -1,4 +1,4 @@
-### Yocto for Up Bard
+### Yocto for Up Board
 
 revised by dj-zhou
 
@@ -6,10 +6,22 @@ revised by dj-zhou
 
 #### Build an Image
 
+You can install Yocto build system dependencies by (command from [`djtools`](https://github.com/dj-zhou/djtools)):
+
+```bash
+yocto setup dev-env
+```
+
 To get the BSP, you need to install the  `repo` utility by (command from [`djtools`](https://github.com/dj-zhou/djtools)):
 
 ```bash
 dj setup google-repo
+```
+
+You may need Python2 to use `repo`:
+
+```bash
+sudo apt-get install python
 ```
 
 Then, you can do the following (the `master` branch of `yocto-up-board` uses `dunfell` branches of the meta layers):
