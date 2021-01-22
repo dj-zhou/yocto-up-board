@@ -18,6 +18,6 @@
   <project remote="oe" revision="dunfell" name="openembedded-core" path="openembedded-core"/>
 
   <!-- from up-board -->
-  <project remote="up-board" revision="dunfell-dev" name="meta-up-board" path="meta-up-board"/>
+  <project remote="up-board" revision="dunfell" name="meta-up-board" path="meta-up-board"/>
 
 </manifest>
