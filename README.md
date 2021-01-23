@@ -3,6 +3,8 @@
 revised by dj-zhou
 
 * Tested on: Ubuntu 20.04.1 LTS
+* Up Board layer: https://github.com/dj-zhou/meta-up-board
+* Tested (testing) image: `upboard-image-base`, `upboard-robotics-image`
 
 #### Build an Image
 
@@ -16,12 +18,6 @@ To get the BSP, you need to install the  `repo` utility by (command from [`djtoo
 
 ```bash
 dj setup google-repo
-```
-
-You may need Python2 to use `repo`:
-
-```bash
-sudo apt-get install python
 ```
 
 Then, you can do the following (the `master` branch of `yocto-up-board` uses `dunfell` branches of the meta layers):
